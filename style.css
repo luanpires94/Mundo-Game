@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #D9184B, rgba(31, 90, 166, 0.4));
+    background-repeat: no-repeat;
+}
+
+/* HEADER */
+header {
+    display: flex;
+}
+
+.logo {
+    height: 30px;
+    margin: 2rem 4rem;
+}
+
+nav {
+    margin: 37px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-left: 2rem;
+    color: #F7F7F7;
+}
+/* HEADER */
+
+/* MAIN */
+.block-text-image {
+    display: flex;
+}
+
+.title {
+    width: 280px;
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 5rem 4rem;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image-corpo {
+    width: 750px;
+}
+/*BLOCK DIV*/
+.block-front {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    left: 5rem;
+}
+
+.block-link {
+    margin-top: 4rem;
+}
+
+.link {
+    color: #1F5AA6;
+    font-weight: bold;
+}
+
+.block-image {
+    display: flex;
+    background-color: #1F5AA6;
+    border-radius: 10px;
+    margin-left: 3rem;
+}
+
+.image-switch {
+    width: 160px;
+    height: 96px;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.image-volant {
+    width: 180px;
+    height: 108px;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.image-gameboy {
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.paragraph {
+    margin: 4rem 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+/*BLOCK DIV*/
+/* MAIN */
